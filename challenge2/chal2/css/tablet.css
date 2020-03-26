@@ -1,0 +1,52 @@
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+
+  .clock {
+    border-radius: 50%;
+    background: url(/img/ios_clock.svg) no-repeat center;
+    background-image: url('/img/earth.png');
+    background-size: 150%;
+    padding-bottom: 31%;
+    position: relative;
+    height: 20em;
+    margin-left: 17%;
+    width: 40em;
+  }
+
+  .clock.simple:after {
+    background: #000;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    /* left: 50%;
+    top: 50%; */
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 5%;
+    z-index: 10;
+  }
+
+  #date {
+         letter-spacing: 0.1em;
+         font-size: 40px;
+         color:white;
+         width: 80%;
+         margin: auto;
+         margin-top: 15%;
+         }
+
+
+
+
+
+
+
+
+
+
+
+}
